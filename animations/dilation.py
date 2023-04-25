@@ -44,3 +44,4 @@ def dilation_anim(render,user_x_factor,user_y_factor,user_z_factor):
         # os.system("manim -pqh dilation.py Dilation")
         scene = Dilation()
         scene.render()
+        return 1
