@@ -1,51 +1,464 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="en"><head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <title>Home</title>
-    <link rel="stylesheet" href="/static/css/Home/nicepage.css" media="screen">
-<link rel="stylesheet" href="/static/css/Home/Home.css" media="screen">
-    <script class="u-script" type="text/javascript" src="/static/js/Home/jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="/static/js/Home/nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 5.6.13, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "",
-		"logo": "images/default-logo.png"
-}</script>
-    <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="Home">
-    <meta property="og:type" content="website">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body data-home-page="Home.html" data-home-page-title="Home" class="u-body u-xl-mode" data-lang="en"><header class="u-clearfix u-header u-header" id="sec-fb1b"><div class="u-clearfix u-sheet u-sheet-1">
-        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
-          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
-            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-              <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-</g></svg>
-            </a>
-          </div>
-          
-          <div class="u-nav-container-collapse">
-            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-              <div class="u-inner-container-layout u-sidenav-overflow">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <title>IDU project</title>
+  </head>
+  <body>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>IDU Project</title>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+        />
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous"
+        />
+      </head>
+      <body>
+        <!--Navigation bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navigation</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="/home"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#">Our Crew</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/home#wwd-align">What we do</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Try Now
+                  </a>
+                  <ul
+                    class="dropdown-menu dropdown-menu-dark"
+                    aria-labelledby="navbarDropdown"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="translation.html"
+                        >Translation</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="reflection.html"
+                        >Reflection</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="/dilation">Dilation</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="rotation.html">Rotation</a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="nav-item"></li>
+              </ul>
             </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
           </div>
         </nav>
-      </div></header>
-    <section class="u-clearfix u-section-1" id="sec-e71a">
-      <div class="u-clearfix u-sheet u-sheet-1">
-        <a href="/xy_select" class="u-black u-btn u-btn-round u-button-style u-custom-item u-hover-grey-50 u-radius-50 u-btn-1">Translation</a>
-        <a href="/xy_select" class="u-black u-btn u-btn-round u-button-style u-custom-item u-hover-grey-50 u-radius-50 u-btn-2">Dilation</a>
-        <a href="/clock_select" class="u-black u-btn u-btn-round u-button-style u-custom-item u-hover-grey-50 u-radius-50 u-btn-3">Rotation</a>
-        <a href="/xy_select" class="u-black u-btn u-btn-round u-button-style u-custom-item u-hover-grey-50 u-radius-50 u-btn-4">Reflection</a>
-      </div>
-    </section>
+        <!--Navigation Bar-->
+
+        <!-- Background image -->
+        <header>
+          <div
+            class="p-5 text-center bg-image"
+            style="
+              background-image: url('https://cdn.i-scmp.com/sites/default/files/styles/landscape/public/d8/yp/images/shutterstock_207946306.jpg?itok=IAyfso-H');
+              height: 350px;
+            "
+          >
+            <div
+              class="mask"
+              style="background-color: rgba(0, 0, 0, 0.6); height: 300px"
+            >
+              <div
+                class="d-flex justify-content-center align-items-center h-100"
+              >
+                <div class="text-white">
+                  <h1 class="mb-3">IDU Project</h1>
+                  <h4 class="mb-3">Matrix's Application in 3D Graphics</h4>
+                  <a
+                    class="btn btn-outline-light btn-lg"
+                    href="#home"
+                    role="button"
+                    >Read More</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+
+        <!--Top heading----------------------------->
+
+        <div style="height: 100px">
+          <!--SPACING-->
+        </div>
+        <div class="container">
+          <h1 class="display-1" id="home">Home Page</h1>
+          <hr />
+          <p class="fs-4" id="wwd-align">
+            This is an <span class="mark">amazing</span> IDU prjoect done by a
+            few normies in coding. Built with insane perfection and
+            "professional" craftsmanship, this is one of the most major projects
+            we have ever comitted to. If you wouldn't mind, please do vote for
+            us as we have worked upsettingly hard for this, thanks.
+          </p>
+          <hr id="wwd" />
+          <div style="height: 150px"></div>
+          <h1>What Are We<strong> Doing</strong>?</h1>
+          <p class="fs-4">
+            Now in the world, 3 Dimensional Graphics is everywhere. In phones,
+            computers, movies, games, etc. Literally, we live in a 3D world. But
+            3D (Especially digitally) lack understandings in a theoretcial
+            manner. It is the job of our IDU to bring light to this
+            controversial but not so well known topic. This website and it's
+            features is a visualisation of 3D transformations, which is one of
+            the more controversial knowledges in 3D Graphics.
+          </p>
+        </div>
+
+        <!--Our Crew-->
+
+        <div class="container justify-content-between d-flex">
+          <div class="card m-2" style="width: 18rem">
+            <img src="..." class="card-img-top img-thumbnail" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Ralph</h5>
+              <p class="card-text">
+                The mastermind behind the backend of this project. Ralph single
+                handedly built the basic foundations for the backend of this
+                website through the python module manim.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <blockquote class="blockquote blockquote-reverse text-end">
+                  <p class="fs-6 text-start">"好好好好好"</p>
+                  <footer class="blockquote-footer">
+                    Quote by
+                    <cite title="Abraham Lincoln">Ralph</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="list-group-item">
+                <blockquote class="blockquote blockquote-reverse text-end">
+                  <p class="fs-6 text-start">"我的眼镜呢？"</p>
+                  <footer class="blockquote-footer">
+                    Quote by
+                    <cite title="Abraham Lincoln">Ralph</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+          </div>
+
+          <div class="card m-2" style="width: 18rem">
+            <img src="..." class="card-img-top img-thumbnail" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Larry</h5>
+              <p class="card-text">
+                The man behind our "下下下策" in this project. Larry designed
+                the translation module and finalized all the four transformation
+                modules. He also learnt how to use matlab just incase this
+                project fails and falls apart.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <blockquote class="blockquote blockquote-reverse text-end">
+                  <p class="fs-6 text-start">
+                    "俗话说得好，一个detention就好比昏昏欲睡间脑脊液中注射一管84消毒液（"
+                  </p>
+                  <footer class="blockquote-footer">
+                    Quote by
+                    <cite title="Larry">Larry</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="list-group-item">
+                <blockquote class="blockquote blockquote-reverse text-end">
+                  <p class="fs-6 text-start">"嗯？下棋？下什么棋？"</p>
+                  <footer class="blockquote-footer">
+                    Quote by
+                    <cite title="Larry">Larry</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="list-group-item">
+                <blockquote class="blockquote blockquote-reverse text-end">
+                  <p class="fs-6 text-start">"怎么这样？"</p>
+                  <footer class="blockquote-footer">
+                    Quote by
+                    <cite title="Larry">Larry</cite>
+                  </footer>
+                </blockquote>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card m-2" style="width: 18rem">
+            <img src="..." class="card-img-top img-thumbnail" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Shawn</h5>
+              <p class="card-text">
+                The man doing all the descriptions. Shawn completed the
+                descriptions of each of the transformations. Basically any big
+                chunk of paragraph here is written by Shawn.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <blockquote class="blockquote blockquote-reverse text-end">
+                  <p class="fs-6 text-start">"艾米诺思——"</p>
+                  <footer class="blockquote-footer">
+                    Quote by
+                    <cite title="Shawn">Shawn</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="list-group-item">
+                <blockquote class="blockquote blockquote-reverse text-end">
+                  <p class="fs-6 text-start">"你说得对，但是..."</p>
+                  <footer class="blockquote-footer">
+                    Quote by
+                    <cite title="Shawn">Shawn</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="list-group-item">
+                <blockquote class="blockquote blockquote-reverse text-end">
+                  <p class="fs-6 text-start">"11111111"</p>
+                  <footer class="blockquote-footer">
+                    Quote by
+                    <cite title="Shawn">Shawn</cite>
+                  </footer>
+                </blockquote>
+              </li>
+            </ul>
+          </div>
+
+          <div class="card m-2" style="width: 18rem">
+            <img src="..." class="card-img-top img-thumbnail" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Bobby</h5>
+              <p class="card-text">
+                Our Communications experts. Bobby helped us a little with
+                everything (expecially with the descriptions) but his main job
+                is to help spread and rally people to our IDU stand, whilst
+                accquiring us the votes.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <blockquote class="blockquote blockquote-reverse text-end">
+                  <p class="fs-6 text-start">
+                    "咦，对呀Ralph,你的手机在哪里？"
+                  </p>
+                  <footer class="blockquote-footer">
+                    Quote by
+                    <cite title="Bobby">Bobby</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+          </div>
+
+          <div class="card m-2" style="width: 18rem">
+            <img src="..." class="card-img-top img-thumbnail" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Richard</h5>
+              <p class="card-text">
+                The man who made all the front end, which contains a whole ton
+                of CSS, HTML, and typing. I am also the one who wrote the crew's
+                descriptions. Definetley the most hard working man.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">
+                <blockquote class="blockquote blockquote-reverse text-end">
+                  <p class="fs-6 text-start">"你看，还是Larry靠谱。"</p>
+                  <footer class="blockquote-footer">
+                    Quote by
+                    <cite title="Richard">Richard</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="list-group-item">
+                <blockquote class="blockquote blockquote-reverse text-end">
+                  <p class="fs-6 text-start">"你看这个轴。"</p>
+                  <footer class="blockquote-footer">
+                    Quote by
+                    <cite title="Richard">Richard</cite>
+                  </footer>
+                </blockquote>
+              </li>
+              <li class="list-group-item">A third item</li>
+            </ul>
+          </div>
+        </div>
+        <!--Our Crew-->
+
+        <!--CARD---------------------------------------------->
+        <div class="container">
+          <hr />
+          <h1 class="display-1 text-center">Contents</h1>
+          <hr />
+        </div>
+        <div class="container d-flex justify-content-between">
+          <div class="card m-3" style="width: 18rem">
+            <img
+              src="/static/image/Translation.png"
+              class="card-img-top img-thumbnail"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Translation</h5>
+              <h6 class="card-subtitle">Shifting the object</h6>
+              <p class="card-text">
+                Translation is the shift of a graph/shape in the x-axis
+                direction or the y-axis direction, or even both.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="text-center">
+                <a class="btn btn-info" href="translation.html">
+                  Go
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card m-3" style="width: 18rem">
+            <img
+              src="/static/image/Reflection.png"
+              class="card-img-top img-thumbnail"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Reflection</h5>
+              <h6 class="card-subtitle">Mirroring the object over an axis</h6>
+              <p class="card-text">
+                Reflection is the action of flipping something over an axis. It
+                is the action of mirroring the graph/object.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="text-center">
+                <a class="btn btn-info" href="reflection.html">
+                  Go
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card m-3" style="width: 18rem">
+            <img src="/static/image/Dilation.png" class="card-img-top img-thumbnail" />
+            <div class="card-body">
+              <h5 class="card-title">Dilation</h5>
+              <h6 class="card-subtitle">An object squeezing or streching</h6>
+              <p class="card-text">
+                Dilation is the action or condition of becoming or being made
+                wider, larger, or more open. To put this in simple words,
+                Dilation is simply streching or squeezing graphs/shapes.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="text-center">
+                <a class="btn btn-info" href="/dilation">
+                  Go
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div class="card m-3" style="width: 18rem">
+            <img src="/static/image/Rotation.png" class="card-img-top img-thumbnail" />
+            <div class="card-body">
+              <h5 class="card-title">Rotatation</h5>
+              <h6 class="card-subtitle">An object spinning about a point</h6>
+              <p class="card-text">
+                Rotation is a motion of a certain space that preserves at least
+                one point. To put this simply, it is objects rotating about a
+                specific point.
+              </p>
+            </div>
+            <div class="card-footer">
+              <p class="text-center">
+                <a class="btn btn-info" href="rotation.html">
+                  Go
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div style="height: 150px">
+          <!--Spacing Bottom-->
+        </div>
+
+        <div class="p-5 text-center bg-dark text-light">
+          <p>Website Design by Craftie</p>
+          <br />
+          <p>Resources by Ralph, Shawn, Larry, Bobby, Richard</p>
+        </div>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"
+        ></script>
+      </body>
+    </html>
+  </body>
+</html>

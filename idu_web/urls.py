@@ -20,6 +20,6 @@ from myapp import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('home/', views.hompage),
-    path('xy_select/', views.xy),
-    path('clock_select',views.clock)
+    path('dilation/', views.dilation),
+    path('ajax/dilation/', views.get_dilation_factors)
 ]
