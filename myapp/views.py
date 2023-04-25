@@ -12,8 +12,8 @@ def dilation(request):
 
 def get_dilation_factors(request):
     render = True
-    user_x_factor = request.POST.get("x_factor")
-    user_y_factor = request.POST.get("y_factor")
-    user_z_factor = request.POST.get("z_factor")
+    user_x_factor = request.GET["x_factor"]
+    user_y_factor = request.GET["y_factor"]
+    user_z_factor = request.GET["z_factor"]
     print(user_x_factor,user_y_factor,user_z_factor)
     dilation_anim(render,user_x_factor,user_y_factor,user_z_factor)

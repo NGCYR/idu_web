@@ -11,9 +11,9 @@ def dilation_anim(render,user_x_factor,user_y_factor,user_z_factor):
             }
             def construct(self):
                 M = np.array([
-                    [user_x_factor, 0, 0],
-                    [0, user_y_factor, 0],
-                    [0, 0, user_z_factor]
+                    [float(user_x_factor), 0, 0],
+                    [0, float(user_y_factor), 0],
+                    [0, 0, float(user_z_factor)]
                 ])
                 M_matrix = Matrix([[int(user_x_factor),  0,  0],[0,int(user_y_factor),0],[0,0,int(user_z_factor)]]).scale(0.7)
                 M2_matrix = MathTex(r"\begin{bmatrix}1&0&0\\ 0&\cos x&-\sin x\\ 0&\sin x&\cos x\end{bmatrix}").scale(0.7)
